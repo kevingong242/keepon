@@ -1,0 +1,247 @@
+* {
+  font-family: 'Hind', sans-serif;
+}
+
+.h1, h1 {
+  font-size: 30px;
+  font-color: #595959;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.container {
+  padding-top: 18px;
+}
+
+.login-container {
+  background-color: #FFD2A2;
+  height: -webkit-fill-available;
+}
+
+/* Navigation Bar */
+
+/* Keepon Logo */
+.top-bar-container .top-bar-top img {
+  width: 80px;
+}
+
+/* Account Icon */
+.top-bar-container .btn-secondary img {
+  width: 20px;
+  padding-left: 4px;
+  padding-bottom: 3px;
+}
+
+/* Account Button */
+.top-bar-container .top-bar-top .btn {
+  float: right;
+  margin-right: -5px;
+  font-size: 16px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.top-bar-container .top-bar-top {
+  height: 64px;
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #FFD2A2;
+}
+
+.top-bar-container .top-bar-nav ul {
+  background-color: #FFA94D;
+  font-size: 20px;
+}
+
+.top-bar-container .top-bar-nav li :hover {
+  border-bottom: 4px solid #EE7C00;
+}
+
+.top-bar-container .top-bar-nav .nav-justified > li {
+  display: table-cell;
+  width: 1%;
+}
+
+.top-bar-container .top-bar-nav .nav-justified > li > a {
+  color: white;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.top-bar-container .top-bar-nav li [class*="active"]{
+  border-bottom: 4px solid #EE7C00;
+  background-color: #FFA94D;
+  color: white;
+}
+
+/* Login */
+
+.login-container img {
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.login-container button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.btn-secondary {
+  color: #ffffff;
+  background-color: #FFA94D;
+  border-color: #FFA94D;
+}
+
+.btn-secondary:hover{
+  color: #ffffff;
+  background-color: #EE7C00;
+  border-color: #EE7C00;
+}
+
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+  background-color: #ee7c39;
+  border-color: #ee7c39;
+  box-shadow: 0 0 0 0.2rem rgba(238, 124, 57, 0.33);
+}
+
+.login-container #usernameForm {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  border: 1px solid white;
+}
+
+.login-container #passForm {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  border: 1px solid white;
+}
+
+.login-container label.form-control-label {
+  margin-left: 90px;
+  color: white;
+}
+
+/* My Coupons */
+
+.btn-outline-primary {
+  color: white;
+  border-color: #FFA94D;
+  background-color: #FFA94D;
+  background-image: none;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+}
+
+.input-group-addon {
+  color: white;
+  background-color: #FFA94D;
+  border: 1px solid #FFA94D;
+}
+
+/* Add Coupon */
+
+.add-coupon-container #discoverableBox, .add-coupon-2-container #discoverableBox{
+  margin-left: 10px;
+  height: 20px;
+}
+
+.modalButtons button {
+  font-size: small;
+}
+
+.add-coupon-container .addCouponButton {
+  margin-right: 25px;
+  width: 5rem;
+}
+
+.add-coupon-container .addCouponButton,  .add-coupon-2-container .addCouponButton{
+  margin-right: 5px;
+  text-align: center;
+  width: 5rem;
+}
+
+.coupon-data-container .expired{
+  opacity: .5;
+}
+
+.coupon-data-container .expiringSoon {
+  background-color: #cd5c5c;
+  color: #FFFFFF;
+}
+
+.coupon-data-container .card:hover{
+  background-color: #e6e6e6;
+}
+
+.coupon-data-container .expiringSoon:hover {
+  background-color: #9c3f3f;
+}
+
+.coupon-data-container .card{
+  margin-bottom: 10px;
+}
+
+.coupon-data-container .card-title{
+  height: 1.5rem;
+  overflow-y: hidden;
+}
+
+.couponModalPicture {
+  width: 100%;
+}
+
+.add-coupon-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+}
+
+.imageButtonsGroup {
+  margin-bottom: 2px;
+}
+
+.imageButtons {
+  margin-right: 5px;
+}
+
+#pictureForm {
+  display: none;
+}
+
+.imageDisplay {
+}
+
+.form-control:focus {
+  border-color: #fad2a1;
+  box-shadow: 0 0 0 0.2rem rgba(250, 210, 161, 0.45);
+}
+
+.expiredModalText {
+  font-size: small;
+  font-style: italic;
+}
+
+.list-group-item.active {
+  background-color: #f5a84b;
+  border-color: #f5a84b;
+}
+
+/* Discover */
